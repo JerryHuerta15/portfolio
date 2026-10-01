@@ -29,9 +29,9 @@ export function PersonalCallingCard() {
   return (
     <main className="calling-card" id="top">
       <header className="site-header">
-        <a className="wordmark" href="#top" aria-label="Your Name, home">
-          <span className="wordmark-mark">YN</span>
-          <span className="wordmark-name">YOUR NAME<span className="wordmark-dot">.</span></span>
+        <a className="wordmark" href="#top" aria-label="Jerry, home">
+          <span className="wordmark-mark">JH</span>
+          <span className="wordmark-name">JERRY<span className="wordmark-dot">.</span></span>
         </a>
         <nav className="site-nav" aria-label="Main navigation">
           <a href="#about">About</a>
@@ -43,7 +43,7 @@ export function PersonalCallingCard() {
       <section className="hero" id="about" aria-labelledby="hero-title">
         <div className="hero-copy">
           <div className="eyebrow"><span className="eyebrow-line" /> A CREATIVE, PEOPLE-FIRST PERSPECTIVE</div>
-          <h1 id="hero-title">Good work<br />starts with <span>good<br className="mobile-break" /> people.</span></h1>
+          <h1 id="hero-title">Hello, I&apos;m<br /><span>Jerry!</span></h1>
           <p className="hero-description">I bring people, places, and stories together — across real estate, nonprofit communications, and film.</p>
           <div className="hero-actions">
             <a className="primary-link" href="#experience">A little about me <ArrowRight aria-hidden="true" /></a>
@@ -58,8 +58,8 @@ export function PersonalCallingCard() {
         <div className="hero-visual">
           <Image
             className="hero-image"
-            src="/calling-card-home.png"
-            alt="Contemporary home illuminated at blue hour"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JH%20business%20professional%20HS-GDSP1rPIOE8BMJYZsyMcZZUYgjPSbF.jpg"
+            alt="Jerry smiling in a light gray suit and black tie"
             fill
             priority
             sizes="(max-width: 760px) 100vw, 48vw"
@@ -101,7 +101,8 @@ export function PersonalCallingCard() {
           <h2>Have something<br /><span>good in mind?</span></h2>
         </div>
         <a className="contact-link" href="mailto:hello@yourname.com">Let's make it happen <MoveUpRight aria-hidden="true" /></a>
-        <div className="footer-bottom"><span>YOUR NAME<span className="wordmark-dot">.</span> &nbsp;© {new Date().getFullYear()}</span><a href="#top">BACK TO TOP ↑</a></div>
+        <div className="footer-bottom">          <span>JERRY<span className="wordmark-dot">.</span> &nbsp;© {new Date().getFullYear()}</span>
+<a href="#top">BACK TO TOP ↑</a></div>
       </footer>
     </main>
   )

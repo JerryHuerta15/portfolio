@@ -263,7 +263,7 @@
 .proof-copy { display: flex; flex-direction: column; gap: 5px; color: #909bab; font-size: 10px; }
 .proof-copy strong { color: #e4e9f1; font-size: 11px; font-weight: 500; }
 .hero-visual { position: relative; min-height: 480px; overflow: hidden; border: 1px solid rgb(255 255 255 / 10%); background: #0b1728; }
-.hero-image { object-fit: cover; object-position: center; }
+.hero-image { object-fit: cover; object-position: center 24%; }
 .image-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgb(5 8 15 / 39%), transparent 38%, rgb(5 8 15 / 23%) 58%, rgb(5 8 15 / 83%)); }
 .image-topline { position: absolute; top: 24px; right: 26px; left: 26px; display: flex; justify-content: space-between; color: #edf3fc; font-size: 8px; letter-spacing: .16em; }
 .image-topline span:first-child { color: #a7c8ff; }
