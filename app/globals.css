@@ -290,7 +290,8 @@
 .discipline-tag { margin-top: auto; padding-top: 24px; color: #8399bb; font-size: 7px; letter-spacing: .15em; }
 
 .contact-section { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 32px; padding: 64px 0 23px; border-top: 1px solid rgb(255 255 255 / 13%); }
-.contact-link { gap: 12px; margin-bottom: 8px; color: #c3d7fa !important; font-size: 12px; }
+.contact-details { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+.contact-link { gap: 12px; margin-bottom: 0; color: #c3d7fa !important; font-size: 12px; }
 .footer-bottom { grid-column: 1 / -1; justify-content: space-between; margin-top: 43px; padding-top: 17px; border-top: 1px solid rgb(255 255 255 / 10%); color: #707d8f; font-size: 8px; letter-spacing: .13em; }
 .footer-bottom a { color: #a5b0c0; }
 

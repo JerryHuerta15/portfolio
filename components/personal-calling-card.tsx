@@ -100,7 +100,10 @@ export function PersonalCallingCard() {
           <span className="section-kicker">THE NEXT CHAPTER STARTS HERE</span>
           <h2>Have something<br /><span>good in mind?</span></h2>
         </div>
-        <a className="contact-link" href="mailto:hello@yourname.com">Let's make it happen <MoveUpRight aria-hidden="true" /></a>
+        <div className="contact-details">
+          <a className="contact-link" href="mailto:richardsbob92@gmail.com">richardsbob92@gmail.com <MoveUpRight aria-hidden="true" /></a>
+          <a className="contact-link" href="tel:+14059790182">405 979 0182 <MoveUpRight aria-hidden="true" /></a>
+        </div>
         <div className="footer-bottom">          <span>JERRY<span className="wordmark-dot">.</span> &nbsp;© {new Date().getFullYear()}</span>
 <a href="#top">BACK TO TOP ↑</a></div>
       </footer>
