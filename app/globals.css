@@ -312,8 +312,8 @@
 .education-heading > p { max-width: 340px; margin: 0 0 5px; color: #929dad; font-size: 13px; line-height: 1.75; }
 .education-grid { display: grid; grid-template-columns: repeat(2, 1fr); border: 1px solid rgb(255 255 255 / 12%); background: linear-gradient(135deg, rgb(16 31 52 / 88%), rgb(7 12 21 / 90%)); }
 .education-card { display: flex; min-height: 220px; flex-direction: column; align-items: flex-start; justify-content: flex-end; gap: 28px; padding: 24px 28px; background-position: center; background-size: cover; }
-.education-card--ou { background-image: linear-gradient(90deg, rgb(5 9 17 / 78%), rgb(5 9 17 / 26%)), linear-gradient(0deg, rgb(5 9 17 / 65%), transparent 80%), url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-10-01%20at%208.03.14%E2%80%AFPM-5GEvjuD806AwLsPMQGmDOf4L2LPSNk.png"); }
-.education-card--occc { background-image: linear-gradient(90deg, rgb(5 9 17 / 78%), rgb(5 9 17 / 25%)), linear-gradient(0deg, rgb(5 9 17 / 65%), transparent 80%), url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-10-01%20at%208.04.31%E2%80%AFPM-tPYebUtALD9I0w9MIfMgn0jFHw0TCu.png"); }
+.education-card--ou { background-image: linear-gradient(90deg, rgb(5 9 17 / 28%), rgb(5 9 17 / 4%)), linear-gradient(0deg, rgb(5 9 17 / 28%), transparent 80%), url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-10-01%20at%208.03.14%E2%80%AFPM-5GEvjuD806AwLsPMQGmDOf4L2LPSNk.png"); }
+.education-card--occc { background-image: linear-gradient(90deg, rgb(5 9 17 / 28%), rgb(5 9 17 / 4%)), linear-gradient(0deg, rgb(5 9 17 / 28%), transparent 80%), url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-10-01%20at%208.04.31%E2%80%AFPM-tPYebUtALD9I0w9MIfMgn0jFHw0TCu.png"); }
 .education-card + .education-card { border-left: 1px solid rgb(255 255 255 / 18%); }
 .education-card h3 { margin: 0; color: #fff; font-size: 20px; font-weight: 500; letter-spacing: -.035em; text-shadow: 0 1px 12px rgb(0 0 0 / 50%); }
 .education-card p { margin: 7px 0 0; color: #eef3fc; font-size: 13px; text-shadow: 0 1px 10px rgb(0 0 0 / 60%); }
