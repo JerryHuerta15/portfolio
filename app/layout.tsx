@@ -3,9 +3,9 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Your Name | Real Estate, Communications & Film',
+  title: 'Jerry Huerta | Creative Work, Real Estate & Film',
   description:
-    'A people-first professional calling card spanning real estate, nonprofit communications, social media, and film production.',
+    'Selected work by Jerry Huerta across film production, nonprofit campaigns, content strategy, and real estate marketing.',
   generator: 'v0.app',
   icons: {
     icon: [
