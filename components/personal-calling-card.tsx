@@ -123,6 +123,7 @@ export function PersonalCallingCard() {
         <div className="contact-details">
           <a className="contact-link" href="mailto:richardsbob92@gmail.com">richardsbob92@gmail.com <MoveUpRight aria-hidden="true" /></a>
           <a className="contact-link" href="tel:+14059790182">405 979 0182 <MoveUpRight aria-hidden="true" /></a>
+          <a className="contact-link" href="https://www.linkedin.com/in/jerryhuerta" target="_blank" rel="noopener noreferrer">LinkedIn <MoveUpRight aria-hidden="true" /></a>
         </div>
         <div className="footer-bottom">          <span>JERRY<span className="wordmark-dot">.</span> &nbsp;© {new Date().getFullYear()}</span>
 <a href="#top">BACK TO TOP ↑</a></div>
