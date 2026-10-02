@@ -44,7 +44,7 @@ export function PersonalCallingCard() {
         <div className="hero-copy">
           <div className="eyebrow"><span className="eyebrow-line" /> A CREATIVE, PEOPLE-FIRST PERSPECTIVE</div>
           <h1 id="hero-title">Hello, I&apos;m<br /><span>Jerry!</span></h1>
-          <p className="hero-description">I bring people, places, and stories together — across real estate, nonprofit communications, and film.</p>
+          <p className="hero-description">I have experience in real estate sales, non - profit fundraising, and film production!</p>
           <div className="hero-actions">
             <a className="primary-link" href="#experience">A little about me <ArrowRight aria-hidden="true" /></a>
             <a className="text-link" href="#contact">Get in touch <MoveUpRight aria-hidden="true" /></a>
