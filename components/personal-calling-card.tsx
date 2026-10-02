@@ -73,7 +73,7 @@ export function PersonalCallingCard() {
         <div className="section-heading">
           <div>
             <span className="section-kicker">THREE WORLDS, ONE APPROACH</span>
-            <h2 id="experience-title">Different mediums.<br /><span>Same human instinct.</span></h2>
+            <h2 id="experience-title">Different industries.<br /><span>Same human connection.</span></h2>
           </div>
           <p>Curiosity, care, and a belief that the best outcomes begin by listening.</p>
         </div>
