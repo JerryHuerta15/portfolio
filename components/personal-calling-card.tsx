@@ -3,21 +3,18 @@ import { ArrowDown, ArrowRight, ArrowUpRight, Clapperboard, HeartHandshake, Hous
 
 const disciplines = [
   {
-    number: '01',
     icon: House,
     title: 'Real estate',
     description: 'Thoughtful guidance, meaningful relationships, and a people-first approach to real estate sales.',
     tag: 'PEOPLE · PLACES · POSSIBILITY',
   },
   {
-    number: '02',
     icon: HeartHandshake,
     title: 'Nonprofit storytelling',
     description: 'Communications and social media that bring missions closer to the people who care.',
     tag: 'PURPOSE · COMMUNITY · IMPACT',
   },
   {
-    number: '03',
     icon: Clapperboard,
     title: 'Film production',
     description: 'A production-minded eye for the details that make a story feel unforgettable.',
@@ -62,7 +59,7 @@ export function PersonalCallingCard() {
             sizes="(max-width: 760px) 100vw, 48vw"
           />
           <div className="image-shade" />
-          <div className="image-topline"><span>01 / 03</span><span>BUILT AROUND PEOPLE</span></div>
+          <div className="image-topline"><span>BUILT AROUND PEOPLE</span></div>
           <div className="image-caption">
             <span className="caption-kicker">THE THROUGH LINE</span>
             <p>Make every<br />connection <em>count.</em></p>
@@ -81,9 +78,9 @@ export function PersonalCallingCard() {
           <p>Curiosity, care, and a belief that the best outcomes begin by listening.</p>
         </div>
         <div className="discipline-grid">
-          {disciplines.map(({ number, icon: Icon, title, description, tag }) => (
+          {disciplines.map(({ icon: Icon, title, description, tag }) => (
             <article className="discipline-card" key={title}>
-              <div className="discipline-top"><span>{number} / 03</span><Icon aria-hidden="true" /></div>
+              <div className="discipline-top"><Icon aria-hidden="true" /></div>
               <h3>{title}</h3>
               <p>{description}</p>
               <span className="discipline-tag">{tag}</span>
@@ -102,7 +99,6 @@ export function PersonalCallingCard() {
         </div>
         <div className="education-grid">
           <article className="education-card">
-            <span className="education-number">01 / 02</span>
             <div>
               <h3>Bachelor of Business Administration</h3>
               <p>Marketing</p>
@@ -110,7 +106,6 @@ export function PersonalCallingCard() {
             <span className="education-school">UNIVERSITY OF OKLAHOMA</span>
           </article>
           <article className="education-card">
-            <span className="education-number">02 / 02</span>
             <div>
               <h3>Associate of Arts</h3>
               <p>Digital Cinema Production</p>
