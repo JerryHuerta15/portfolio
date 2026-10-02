@@ -291,17 +291,17 @@
 }
 .discipline-card:nth-child(1) {
   background-image:
-    linear-gradient(180deg, rgb(5 8 15 / 60%), rgb(5 8 15 / 84%)),
+    linear-gradient(180deg, rgb(5 8 15 / 24%), rgb(5 8 15 / 62%)),
     url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-10-01%20at%207.22.45%E2%80%AFPM-zTa5hETaWLlwiR2uGtgHBKT4ZiC5lL.png");
 }
 .discipline-card:nth-child(2) {
   background-image:
-    linear-gradient(180deg, rgb(5 8 15 / 60%), rgb(5 8 15 / 84%)),
+    linear-gradient(180deg, rgb(5 8 15 / 24%), rgb(5 8 15 / 62%)),
     url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_1661%20%281%29-22CmVWXoPK282U97ew3agkaNS5C8kc.jpg");
 }
 .discipline-card:nth-child(3) {
   background-image:
-    linear-gradient(180deg, rgb(5 8 15 / 60%), rgb(5 8 15 / 84%)),
+    linear-gradient(180deg, rgb(5 8 15 / 24%), rgb(5 8 15 / 62%)),
     url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_2643-paW7pMDpi4bJfW6rua4aABgJxXicpC.jpeg");
 }
 .discipline-top { justify-content: space-between; color: #8f9aaa; font-size: 8px; letter-spacing: .14em; }
