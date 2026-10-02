@@ -107,7 +107,6 @@ export function PersonalCallingCard() {
             sizes="(max-width: 760px) 100vw, 48vw"
           />
           <div className="image-shade" />
-          <div className="image-topline"><span>BUILT AROUND PEOPLE</span></div>
           <div className="image-caption">
             <span className="caption-kicker">THE THROUGH LINE</span>
             <p>Make every<br />connection <em>count.</em></p>
