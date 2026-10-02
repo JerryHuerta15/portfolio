@@ -6,7 +6,7 @@ const disciplines = [
     number: '01',
     icon: House,
     title: 'Real estate',
-    description: 'Thoughtful guidance, meaningful relationships, and $500K+ in sales volume.',
+    description: 'Thoughtful guidance, meaningful relationships, and a people-first approach to real estate sales.',
     tag: 'PEOPLE · PLACES · POSSIBILITY',
   },
   {
@@ -36,7 +36,8 @@ export function PersonalCallingCard() {
         <nav className="site-nav" aria-label="Main navigation">
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
-          <a className="nav-contact" href="#contact">Let's connect <ArrowUpRight aria-hidden="true" /></a>
+          <a href="#education">Education</a>
+          <a className="nav-contact" href="#contact">Let&apos;s connect <ArrowUpRight aria-hidden="true" /></a>
         </nav>
       </header>
 
@@ -48,10 +49,6 @@ export function PersonalCallingCard() {
           <div className="hero-actions">
             <a className="primary-link" href="#experience">A little about me <ArrowRight aria-hidden="true" /></a>
             <a className="text-link" href="#contact">Get in touch <MoveUpRight aria-hidden="true" /></a>
-          </div>
-          <div className="hero-proof">
-            <div className="proof-number">$500<span>K+</span></div>
-            <div className="proof-copy"><strong>in real estate sales volume</strong><span>Built on trust, one connection at a time.</span></div>
           </div>
         </div>
 
@@ -92,6 +89,34 @@ export function PersonalCallingCard() {
               <span className="discipline-tag">{tag}</span>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="education-section" id="education" aria-labelledby="education-title">
+        <div className="education-heading">
+          <div>
+            <span className="section-kicker">A FOUNDATION FOR THE WORK</span>
+            <h2 id="education-title">Education<span>.</span></h2>
+          </div>
+          <p>Marketing, storytelling, and production — a mix that shapes how I connect people and ideas.</p>
+        </div>
+        <div className="education-grid">
+          <article className="education-card">
+            <span className="education-number">01 / 02</span>
+            <div>
+              <h3>Bachelor of Business Administration</h3>
+              <p>Marketing</p>
+            </div>
+            <span className="education-school">UNIVERSITY OF OKLAHOMA</span>
+          </article>
+          <article className="education-card">
+            <span className="education-number">02 / 02</span>
+            <div>
+              <h3>Associate of Arts</h3>
+              <p>Digital Cinema Production</p>
+            </div>
+            <span className="education-school">OKLAHOMA CITY COMMUNITY COLLEGE</span>
+          </article>
         </div>
       </section>
 
