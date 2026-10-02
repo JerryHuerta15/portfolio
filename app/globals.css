@@ -306,7 +306,7 @@
 }
 .discipline-top { justify-content: space-between; color: #8f9aaa; font-size: 8px; letter-spacing: .14em; }
 .discipline-top svg { width: 18px; height: 18px; color: #9fc0f5; stroke-width: 1.4; }
-.discipline-card h3 { margin: 32px 0 8px; font-size: 19px; font-weight: 500; letter-spacing: -.03em; }
+.discipline-card h3 { margin: auto 0 8px; font-size: 19px; font-weight: 500; letter-spacing: -.03em; }
 .discipline-card p { max-width: 330px; margin: 0; color: #9aa5b5; font-size: 12px; line-height: 1.7; }
 .discipline-tag { margin-top: auto; padding-top: 24px; color: #8399bb; font-size: 7px; letter-spacing: .15em; }
 
