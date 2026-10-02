@@ -98,14 +98,14 @@ export function PersonalCallingCard() {
           <p>Marketing, storytelling, and production — a mix that shapes how I connect people and ideas.</p>
         </div>
         <div className="education-grid">
-          <article className="education-card">
+          <article className="education-card education-card--ou">
             <div>
               <h3>Bachelor of Business Administration</h3>
               <p>Marketing</p>
             </div>
             <span className="education-school">UNIVERSITY OF OKLAHOMA</span>
           </article>
-          <article className="education-card">
+          <article className="education-card education-card--occc">
             <div>
               <h3>Associate of Arts</h3>
               <p>Digital Cinema Production</p>
