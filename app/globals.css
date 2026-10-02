@@ -298,8 +298,8 @@
 .work-card-copy p { margin: 0; color: #a4adbc; font-size: 12px; line-height: 1.7; }
 .work-view-link { display: inline-flex; align-items: center; gap: 7px; margin-top: auto; padding-top: 17px; color: #c3d7fa; font-size: 10px; }
 .work-view-link svg, .work-portfolio-link svg { width: 13px; height: 13px; }
-.work-portfolio-link { display: inline-flex; align-items: center; gap: 12px; margin-top: 30px; padding: 17px 23px; border: 1px solid rgb(143 181 244 / 48%); color: #d6e4fb; font-size: 14px; font-weight: 500; transition: background .2s ease, border-color .2s ease; }
-.work-portfolio-link svg { width: 17px; height: 17px; }
+.work-portfolio-link { display: inline-flex; align-items: center; gap: 16px; margin-top: 34px; padding: 22px 30px; border: 1px solid rgb(143 181 244 / 52%); color: #d6e4fb; font-size: 17px; font-weight: 500; transition: background .2s ease, border-color .2s ease; }
+.work-portfolio-link svg { width: 20px; height: 20px; }
 .work-portfolio-link:hover { background: rgb(61 107 179 / 16%); }
 .experience-section { padding: 72px 0 112px; border-top: 1px solid rgb(255 255 255 / 10%); }
 .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; margin-bottom: 40px; }
