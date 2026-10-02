@@ -283,6 +283,21 @@
 .discipline-grid { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid rgb(255 255 255 / 12%); }
 .discipline-card { display: flex; min-height: 240px; flex-direction: column; padding: 25px 27px 23px; background: linear-gradient(145deg, rgb(18 37 63 / 74%), rgb(8 14 25 / 86%)); }
 .discipline-card + .discipline-card { border-left: 1px solid rgb(255 255 255 / 12%); }
+.discipline-card:nth-child(1),
+.discipline-card:nth-child(2) {
+  background-position: center;
+  background-size: cover;
+}
+.discipline-card:nth-child(1) {
+  background-image:
+    linear-gradient(180deg, rgb(5 8 15 / 60%), rgb(5 8 15 / 84%)),
+    url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-10-01%20at%207.22.45%E2%80%AFPM-zTa5hETaWLlwiR2uGtgHBKT4ZiC5lL.png");
+}
+.discipline-card:nth-child(2) {
+  background-image:
+    linear-gradient(180deg, rgb(5 8 15 / 60%), rgb(5 8 15 / 84%)),
+    url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_1661%20%281%29-22CmVWXoPK282U97ew3agkaNS5C8kc.jpg");
+}
 .discipline-top { justify-content: space-between; color: #8f9aaa; font-size: 8px; letter-spacing: .14em; }
 .discipline-top svg { width: 18px; height: 18px; color: #9fc0f5; stroke-width: 1.4; }
 .discipline-card h3 { margin: 32px 0 8px; font-size: 19px; font-weight: 500; letter-spacing: -.03em; }
